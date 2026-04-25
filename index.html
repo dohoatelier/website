@@ -3,7 +3,45 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>DOHO Atelier</title>
+  <title>DOHO Atelier — Obras Textiles Bordadas a Mano</title>
+
+  <!-- SEO primario -->
+  <meta name="description" content="Doho Atelier crea piezas textiles decorativas bordadas a mano que transforman lo cotidiano en arte. Objetos únicos para habitar espacios con calma, textura y sentido." />
+  <meta name="keywords" content="textiles bordados, arte textil, bordado a mano, decoración hogar, piezas únicas, Doho Atelier" />
+  <meta name="author" content="Doho Atelier" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.dohoatelier.com/" />
+
+  <!-- Open Graph (WhatsApp, Facebook, LinkedIn) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.dohoatelier.com/" />
+  <meta property="og:title" content="DOHO Atelier — Obras Textiles Bordadas a Mano" />
+  <meta property="og:description" content="Piezas textiles decorativas bordadas a mano que transforman lo cotidiano en arte." />
+  <meta property="og:image" content="https://www.dohoatelier.com/og-image.jpg" />
+  <meta property="og:locale" content="es_AR" />
+  <meta property="og:site_name" content="Doho Atelier" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="DOHO Atelier — Obras Textiles Bordadas a Mano" />
+  <meta name="twitter:description" content="Piezas textiles decorativas bordadas a mano que transforman lo cotidiano en arte." />
+  <meta name="twitter:image" content="https://www.dohoatelier.com/og-image.jpg" />
+
+  <!-- Schema.org structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Doho Atelier",
+    "description": "Piezas textiles decorativas bordadas a mano que transforman lo cotidiano en arte.",
+    "url": "https://www.dohoatelier.com",
+    "sameAs": [
+      "https://www.instagram.com/dohoatelier"
+    ],
+    "image": "https://www.dohoatelier.com/og-image.jpg"
+  }
+  </script>
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;600&display=swap" rel="stylesheet" />
@@ -106,6 +144,13 @@
         flex-shrink: 0;
       }
 
+      .links-label {
+        font-family: 'Inter', sans-serif;
+        font-weight: 600;
+        font-size: clamp(11px, 0.95vw, 15px);
+        color: var(--text);
+      }
+
       .links a {
         font-family: 'Inter', sans-serif;
         font-weight: 600;
@@ -175,7 +220,7 @@
       .mobile-image {
         display: block;
         width: 100%;
-        aspect-ratio: 3/2.2;
+        aspect-ratio: 3/4;
         object-fit: cover;
         object-position: center;
       }
@@ -206,6 +251,13 @@
         text-underline-offset: 3px;
         text-decoration-thickness: 1.5px;
         cursor: pointer;
+      }
+
+      .links-label {
+        font-family: 'Inter', sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        color: var(--text);
       }
 
       .footer {
@@ -264,9 +316,9 @@
   </div>
 
   <div class="links">
-    <a id="link1" href="#">Solicitar Catálogo</a>
+    <span id="link1" class="links-label">Para consultas</span>
     <a id="link2" href="https://wa.me/" target="_blank">Mensaje a Whatsapp</a>
-    <a id="link3" href="https://instagram.com/dohoatelier" target="_blank">Instagram</a>
+    <a id="link3" href="https://instagram.com/" target="_blank">Instagram</a>
   </div>
 
   <p class="footer" id="footer">Doho Atelier 2026. Todos los derechos reservados.</p>
@@ -309,17 +361,17 @@
       title:  'Obras textiles<br>que trascienden',
       p1:     'En Doho Atelier creamos piezas textiles decorativas bordadas a mano que transforman lo cotidiano en arte.',
       p2:     'Cada obra nace de un trazo simple y se convierte, puntada a puntada, en un objeto único pensado para habitar espacios con calma, textura y sentido.',
-      link1:  'Solicitar Catálogo',
+      link1:  'Para consultas',
       link2:  'Mensaje a Whatsapp',
       link3:  'Instagram',
       footer: 'Doho Atelier 2026. Todos los derechos reservados.',
       lang:   'es'
     },
     en: {
-      title:  'Textile artworks<br>that transcend',
+      title:  'Textile works<br>that transcend',
       p1:     'At Doho Atelier we create hand-embroidered decorative textile pieces that transform the everyday into art.',
       p2:     'Each work is born from a simple stroke and becomes, stitch by stitch, a unique object designed to inhabit spaces with calm, texture and meaning.',
-      link1:  'Request Catalogue',
+      link1:  'For inquiries',
       link2:  'Message on Whatsapp',
       link3:  'Instagram',
       footer: 'Doho Atelier 2026. All rights reserved.',
